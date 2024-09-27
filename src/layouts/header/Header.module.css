@@ -1,0 +1,35 @@
+.header {
+    width: 100%;
+    height: auto;
+    padding: 20px 0 37px;
+    background: #121212;
+}
+
+.header__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content * {
+    color: #ffffff;
+}
+
+.part {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.part div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.part-devider {
+    width: 1px;
+    height: 16px;
+    background-color: #595959;
+}

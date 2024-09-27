@@ -1,0 +1,43 @@
+.section {
+    padding-bottom: 100px;
+}
+
+.section__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.main_title {
+    color: #121212;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    text-align: center;
+}
+
+.cards_block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    row-gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.card_text {
+    color: #121212B2;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-align: center;
+    text-transform: uppercase;
+}
